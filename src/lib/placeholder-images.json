@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "biology-cover",
+      "description": "Cover for Biology 1st Paper",
+      "imageUrl": "https://picsum.photos/seed/biology/400/600",
+      "imageHint": "dna helix"
+    },
+    {
+      "id": "physics-cover",
+      "description": "Cover for Physics 2nd Paper",
+      "imageUrl": "https://picsum.photos/seed/physics/400/600",
+      "imageHint": "atom physics"
+    },
+    {
+      "id": "chemistry-cover",
+      "description": "Cover for Chemistry 1st Paper",
+      "imageUrl": "https://picsum.photos/seed/chemistry/400/600",
+      "imageHint": "molecules science"
+    },
+    {
+      "id": "math-cover",
+      "description": "Cover for Higher Math 1st Paper",
+      "imageUrl": "https://picsum.photos/seed/math/400/600",
+      "imageHint": "equations chalkboard"
+    },
+    {
+      "id": "ict-cover",
+      "description": "Cover for ICT Book",
+      "imageUrl": "https://picsum.photos/seed/ict/400/600",
+      "imageHint": "circuit board"
+    }
+  ]
+}
