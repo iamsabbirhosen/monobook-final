@@ -1,28 +1,5 @@
 {
-  "node": {
-    "7f2d9d64afb0723a7d12373a2954044a894005b880": {
-      "workers": {
-        "app/api/explain/route": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fmonobook-new%2Fsrc%2Fapp%2Fapi%2Fexplain%2Froute.ts%22%2C%5B%7B%22id%22%3A%227f2d9d64afb0723a7d12373a2954044a894005b880%22%2C%22exportedName%22%3A%22POST%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/api/explain/route": "rsc"
-      }
-    },
-    "40ce727b6f4e3fc077b6a2ab05ce64651a32fc8b8d": {
-      "workers": {
-        "app/reader/[bookId]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fmonobook-new%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%2240ce727b6f4e3fc077b6a2ab05ce64651a32fc8b8d%22%2C%22exportedName%22%3A%22explainDifficultPage%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/reader/[bookId]/page": "action-browser"
-      }
-    }
-  },
+  "node": {},
   "edge": {},
   "encryptionKey": "sGsg6ZtJz25e0N7YQB1Rtt5GAGOaIHnxaCSJ6iqs7yI="
 }

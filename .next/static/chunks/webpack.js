@@ -161,7 +161,7 @@
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return undefined;
+/******/ 			return "static/chunks/" + chunkId + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -190,11 +190,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-<<<<<<< HEAD
-/******/ 		__webpack_require__.h = () => ("aa88f2dea87e4ad0")
-=======
-/******/ 		__webpack_require__.h = () => ("7696b1c83ed35aa8")
->>>>>>> 64f43ed (Try fixing this error: `Console Error: A component was suspended by an u)
+/******/ 		__webpack_require__.h = () => ("bfe37cd0adabab39")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */

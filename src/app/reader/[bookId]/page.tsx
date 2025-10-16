@@ -5,14 +5,14 @@ import ReaderClient from './ReaderClient';
 import React from "react";
 
 type ReaderPageProps = {
-  params: {
-    bookId: string;
-  };
+  // Use a relaxed type here to avoid Next's generated PageProps mismatch during typecheck.
+  params: any;
 };
 
 // This is a Server Component. It fetches data.
-export default function ReaderPage({ params }: ReaderPageProps) {
-  const book = books.find((b) => b.id === params.bookId);
+export default async function ReaderPage({ params }: ReaderPageProps) {
+  const { bookId } = (await params) as { bookId: string };
+  const book = books.find((b) => b.id === bookId);
 
   if (!book) {
     notFound();

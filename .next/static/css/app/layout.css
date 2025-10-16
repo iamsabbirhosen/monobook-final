@@ -1288,6 +1288,9 @@ video {
 .bg-muted {
   background-color: hsl(var(--muted));
 }
+.bg-muted-foreground\/10 {
+  background-color: hsl(var(--muted-foreground) / 0.1);
+}
 .bg-muted\/50 {
   background-color: hsl(var(--muted) / 0.5);
 }

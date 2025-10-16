@@ -1,4 +1,4 @@
-// File: /home/user/studio/monobook-new/src/app/reader/[bookId]/page.tsx
+// File: C:\Users\User\Desktop\monobook-final\src\app\reader\[bookId]\page.tsx
 import * as entry from '../../../../../src/app/reader/[bookId]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
